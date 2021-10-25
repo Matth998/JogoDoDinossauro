@@ -1,0 +1,57 @@
+.dino{
+
+    width: 60px;
+    height: 60px;
+    background: url(../img/dino.png);
+    position: absolute;
+    bottom: 0;
+
+}
+
+.cactus{
+
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background: url(../img/cactus.png);
+    bottom: 0;
+
+}
+
+@keyframes animaFundo{
+
+    from{
+
+        background-position: 70000%;
+
+    }
+
+    to{
+
+        background-position: 0;
+
+    }
+
+}
+
+.background{
+
+    background: url(../img/background.png);
+    background-repeat: repeat-x;
+    position: absolute;
+    bottom: 0;
+
+    animation: animaFundo 600s infinite linear;
+
+    width: 100%;
+    height: 200px
+
+}
+
+.game-over{
+
+    margin-top: 15%;
+    text-align: center;
+    font-family: arial;
+
+}
